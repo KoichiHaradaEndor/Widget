@@ -1,0 +1,357 @@
+{
+	"map": [
+		{
+			"id": 2147483647,
+			"path": "Sources/Methods/test_progress.4dm"
+		},
+		{
+			"id": 2147483646,
+			"path": "Sources/Classes/Progress.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "#",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "name_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "start",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483643,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "quit",
+			"parameters": []
+		},
+		{
+			"id": 2147483642,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "stopped",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483641,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get title",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483640,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set title",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "title_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483639,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get message",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483638,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set message",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "message_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483637,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get progress",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 285
+				}
+			]
+		},
+		{
+			"id": 2147483636,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set progress",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "progress_r",
+					"parameterType": 285
+				}
+			]
+		},
+		{
+			"id": 2147483635,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get buttonEnabled",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483634,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set buttonEnabled",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "enabled_b",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483633,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get buttonTitle",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483632,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set buttonTitle",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "title_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483631,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get icon",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 286
+				}
+			]
+		},
+		{
+			"id": 2147483630,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set icon",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "icon_g",
+					"parameterType": 286
+				}
+			]
+		},
+		{
+			"id": 2147483629,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get stopEventListener",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483628,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set stopEventListener",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "methodName_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483627,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "setGlobalAppearance",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "settings_o",
+					"parameterType": 1216
+				}
+			]
+		},
+		{
+			"id": 2147483626,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "set errorEventListener",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "methodName_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483625,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get errorEventListener",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483624,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "show",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483623,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "hide",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483622,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "setCoordinates",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "horizontalPosition_l",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "verticalPosition_l",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483621,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "stop",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483620,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "canceled",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 305
+				}
+			]
+		},
+		{
+			"id": 2147483619,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "get canceled",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 305
+				}
+			]
+		}
+	],
+	"targets": {
+		"x86_64_generic": true,
+		"arm64_macOS_lib": true
+	},
+	"arch64": true
+}

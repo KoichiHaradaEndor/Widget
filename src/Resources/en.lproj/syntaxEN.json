@@ -1,0 +1,257 @@
+{
+	"_method_": {},
+	"cs.Widget": {
+		"Progress": {
+			"new()": {
+				"Syntax": "**.new**( *name_t* : Text )",
+				"Params": [
+					[
+						"name_t",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"Progress": {
+		"setCoordinates()": {
+			"Syntax": "**.setCoordinates**( *horizontalPosition_l* : Integer; *verticalPosition_l* : Integer )",
+			"Params": [
+				[
+					"horizontalPosition_l",
+					"Integer",
+					"->"
+				],
+				[
+					"verticalPosition_l",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"hide()": {
+			"Syntax": "**.hide**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"get stopEventListener()": {
+			"Syntax": "**.get stopEventListener**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set icon()": {
+			"Syntax": "**.set icon**( *icon_g* : Picture )",
+			"Params": [
+				[
+					"icon_g",
+					"Picture",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get icon()": {
+			"Syntax": "**.get icon**() : Picture",
+			"Params": [
+				[
+					"",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set buttonTitle()": {
+			"Syntax": "**.set buttonTitle**( *title_t* : Text )",
+			"Params": [
+				[
+					"title_t",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"set buttonEnabled()": {
+			"Syntax": "**.set buttonEnabled**( *enabled_b* : Boolean )",
+			"Params": [
+				[
+					"enabled_b",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"canceled()": {
+			"Syntax": "**.canceled**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get progress()": {
+			"Syntax": "**.get progress**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set progress()": {
+			"Syntax": "**.set progress**( *progress_r* : Real )",
+			"Params": [
+				[
+					"progress_r",
+					"Real",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"set message()": {
+			"Syntax": "**.set message**( *message_t* : Text )",
+			"Params": [
+				[
+					"message_t",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"show()": {
+			"Syntax": "**.show**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"get errorEventListener()": {
+			"Syntax": "**.get errorEventListener**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get message()": {
+			"Syntax": "**.get message**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set errorEventListener()": {
+			"Syntax": "**.set errorEventListener**( *methodName_t* : Text )",
+			"Params": [
+				[
+					"methodName_t",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"start()": {
+			"Syntax": "**.start**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"get title()": {
+			"Syntax": "**.get title**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set stopEventListener()": {
+			"Syntax": "**.set stopEventListener**( *methodName_t* : Text )",
+			"Params": [
+				[
+					"methodName_t",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get buttonEnabled()": {
+			"Syntax": "**.get buttonEnabled**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"setGlobalAppearance()": {
+			"Syntax": "**.setGlobalAppearance**( *settings_o* : Object )",
+			"Params": [
+				[
+					"settings_o",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"stop()": {
+			"Syntax": "**.stop**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"get buttonTitle()": {
+			"Syntax": "**.get buttonTitle**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set title()": {
+			"Syntax": "**.set title**( *title_t* : Text )",
+			"Params": [
+				[
+					"title_t",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	}
+}

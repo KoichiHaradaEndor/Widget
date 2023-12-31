@@ -1,0 +1,44 @@
+{
+	"Sources/Classes/Progress.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 60,
+		"lastSelectedLine": 60,
+		"folding": [
+			11,
+			23,
+			36,
+			53,
+			69,
+			85,
+			98,
+			114,
+			127,
+			143,
+			157,
+			173,
+			186,
+			202,
+			215,
+			231,
+			250,
+			266,
+			280,
+			350,
+			358,
+			366,
+			374
+		],
+		"bookmarks": [],
+		"stamp": "2023-12-31T12:33:28.112Z"
+	},
+	"Sources/Methods/test_progress.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2023-12-31T12:34:04.634Z"
+	}
+}

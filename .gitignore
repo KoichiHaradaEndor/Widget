@@ -1,12 +1,12 @@
 # 4D project architecture
 ######################
 
-/Data/*
-/Logs/*
-/Project/DerivedData/*
-/Project/BuildSettings/*
-/Settings/*
-/userPreferences*/*
+/src/Data/*
+/src/Logs/*
+/src/Project/DerivedData/*
+/src/Project/BuildSettings/*
+/src/Settings/*
+/src/userPreferences*/*
 
 # Don't need the data file, indexes, symbols, or journal
 *.4DD

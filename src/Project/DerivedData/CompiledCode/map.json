@@ -37,19 +37,19 @@
 		{
 			"id": 2147483643,
 			"path": "Sources/Classes/Progress.4dm",
-			"function": "quit",
-			"parameters": []
+			"function": "stop",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
 		},
 		{
 			"id": 2147483642,
 			"path": "Sources/Classes/Progress.4dm",
-			"function": "stopped",
-			"parameters": [
-				{
-					"parameterName": "",
-					"parameterType": 305
-				}
-			]
+			"function": "canceled",
+			"parameters": []
 		},
 		{
 			"id": 2147483641,
@@ -317,19 +317,12 @@
 		},
 		{
 			"id": 2147483621,
-			"path": "Sources/Classes/Progress.4dm",
-			"function": "stop",
-			"parameters": [
-				{
-					"parameterName": "",
-					"parameterType": 0
-				}
-			]
+			"path": "Trash/Methods/(test_progress1).4dm"
 		},
 		{
 			"id": 2147483620,
 			"path": "Sources/Classes/Progress.4dm",
-			"function": "canceled",
+			"function": "get canceled",
 			"parameters": [
 				{
 					"parameterName": "",
@@ -340,11 +333,72 @@
 		{
 			"id": 2147483619,
 			"path": "Sources/Classes/Progress.4dm",
-			"function": "get canceled",
+			"function": "_executeInUseClause",
 			"parameters": [
 				{
 					"parameterName": "",
-					"parameterType": 305
+					"parameterType": 0
+				},
+				{
+					"parameterName": "formula_o",
+					"parameterType": 1709
+				},
+				{
+					"parameterName": "param_v",
+					"parameterType": 1683
+				}
+			]
+		},
+		{
+			"id": 2147483618,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "_setButtonTitle",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "id_l",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "title_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483617,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "_getButtonTitle",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 284
+				},
+				{
+					"parameterName": "id_l",
+					"parameterType": 283
+				},
+				{
+					"parameterName": "title_t",
+					"parameterType": 284
+				}
+			]
+		},
+		{
+			"id": 2147483616,
+			"path": "Sources/Classes/Progress.4dm",
+			"function": "setProgress",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "value_o",
+					"parameterType": 1216
 				}
 			]
 		}

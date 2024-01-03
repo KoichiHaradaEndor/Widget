@@ -2,8 +2,11 @@
 	"Progress": {
 		"functions": {
 			"start": 2147483644,
-			"stop": 2147483621,
-			"canceled": 2147483620,
+			"stop": 2147483643,
+			"get canceled": {
+				"id": 2147483620,
+				"resultFunctionCode": 305
+			},
 			"get title": {
 				"id": 2147483641,
 				"resultFunctionCode": 284
@@ -19,6 +22,7 @@
 				"resultFunctionCode": 285
 			},
 			"set progress": 2147483636,
+			"setProgress": 2147483616,
 			"get buttonEnabled": {
 				"id": 2147483635,
 				"resultFunctionCode": 305

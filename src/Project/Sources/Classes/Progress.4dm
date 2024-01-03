@@ -15,11 +15,7 @@ Class constructor($name_t : Text)
 		Storage:C1525.progress:=Storage:C1525.progress || New shared object:C1526
 	End use 
 	
-	If ($name_t="")
-		throw:C1805({message: "Missing 'name' parameter."})
-	End if 
-	
-	This:C1470.name:=$name_t
+	This:C1470.name:=$name_t || "__ANONYMOUS_PROGRESS__"
 	
 Function start()
 	
@@ -51,7 +47,7 @@ Function stop()
 		
 	End use 
 	
-Function canceled() : Boolean
+Function get canceled() : Boolean
 	
 	var $id_l : Integer
 	var $stopped_b : Boolean
@@ -150,6 +146,38 @@ Function set progress($progress_r : Real)
 		If (Storage:C1525.progress[This:C1470.name]#Null:C1517)
 			$id_l:=Storage:C1525.progress[This:C1470.name]
 			Progress SET PROGRESS($id_l; $progress_r)
+		End if 
+		
+	End use 
+	
+Function setProgress($value_o : Object)
+	
+/**
+* value:={
+*   progress : Real,
+*   title : Text,
+*   message : Text
+* }
+*/
+	
+	var $id_l; $type_l : Integer
+	
+	Use (Storage:C1525.progress)
+		
+		If (Storage:C1525.progress[This:C1470.name]#Null:C1517)
+			$id_l:=Storage:C1525.progress[This:C1470.name]
+			If ($value_o.progress#Null:C1517)
+				$type_l:=Value type:C1509($value_o.progress)
+				If (($type_l=Is real:K8:4) || ($type_l=Is longint:K8:6))
+					Progress SET PROGRESS($id_l; $value_o.progress)
+				End if 
+			End if 
+			If (($value_o.title#Null:C1517) && (Value type:C1509($value_o.title)=Is text:K8:3))
+				Progress SET TITLE($id_l; $value_o.title)
+			End if 
+			If (($value_o.message#Null:C1517) && (Value type:C1509($value_o.message)=Is text:K8:3))
+				Progress SET MESSAGE($id_l; $value_o.message)
+			End if 
 		End if 
 		
 	End use 
@@ -298,25 +326,37 @@ Function setGlobalAppearance($settings_o : Object)
 	
 	// Check property types
 	Case of 
+		: ($settings_o.title=Null:C1517)
+			
 		: (Value type:C1509($settings_o.title)#Is object:K8:27)
 			throw:C1805({message: "The title property must be object type."})
-		: ((Value type:C1509($settings_o.title.fontSize)#Is longint:K8:6) && (Value type:C1509($settings_o.title.fontSize)#Is real:K8:4))
-			throw:C1805({message: "The fontSize property must be integer type."})
-		: (Value type:C1509($settings_o.title.fontName)#Is text:K8:3)
+		: (($settings_o.title.fontSize#Null:C1517) && (Value type:C1509($settings_o.title.fontSize)#Is longint:K8:6) && (Value type:C1509($settings_o.title.fontSize)#Is real:K8:4))
+			throw:C1805({message: "The fontSize property must be numeric type."})
+		: (($settings_o.title.fontName#Null:C1517) && (Value type:C1509($settings_o.title.fontName)#Is text:K8:3))
 			throw:C1805({message: "The fontSize property must be text type."})
+	End case 
+	
+	
+	Case of 
+		: ($settings_o.message=Null:C1517)
 			
 		: (Value type:C1509($settings_o.message)#Is object:K8:27)
 			throw:C1805({message: "The title property must be object type."})
-		: ((Value type:C1509($settings_o.message.fontSize)#Is longint:K8:6) && (Value type:C1509($settings_o.message.fontSize)#Is real:K8:4))
-			throw:C1805({message: "The fontSize property must be integer type."})
-		: (Value type:C1509($settings_o.message.fontName)#Is text:K8:3)
+		: (($settings_o.message.fontSize#Null:C1517) && (Value type:C1509($settings_o.message.fontSize)#Is longint:K8:6) && (Value type:C1509($settings_o.message.fontSize)#Is real:K8:4))
+			throw:C1805({message: "The fontSize property must be numeric type."})
+		: (($settings_o.message.fontName#Null:C1517) && (Value type:C1509($settings_o.message.fontName)#Is text:K8:3))
 			throw:C1805({message: "The fontSize property must be text type."})
+	End case 
+	
+	
+	Case of 
+		: ($settings_o.button=Null:C1517)
 			
 		: (Value type:C1509($settings_o.button)#Is object:K8:27)
 			throw:C1805({message: "The title property must be object type."})
-		: ((Value type:C1509($settings_o.button.fontSize)#Is longint:K8:6) && (Value type:C1509($settings_o.button.fontSize)#Is real:K8:4))
-			throw:C1805({message: "The fontSize property must be integer type."})
-		: (Value type:C1509($settings_o.button.fontName)#Is text:K8:3)
+		: (($settings_o.button.fontSize#Null:C1517) && (Value type:C1509($settings_o.button.fontSize)#Is longint:K8:6) && (Value type:C1509($settings_o.button.fontSize)#Is real:K8:4))
+			throw:C1805({message: "The fontSize property must be numeric type."})
+		: (($settings_o.button.fontName#Null:C1517) && (Value type:C1509($settings_o.button.fontName)#Is text:K8:3))
 			throw:C1805({message: "The fontSize property must be text type."})
 			
 	End case 
@@ -375,4 +415,5 @@ Function hide()
 Function setCoordinates($horizontalPosition_l : Integer; $verticalPosition_l : Integer)
 	
 	Progress SET WINDOW VISIBLE(True:C214; $horizontalPosition_l; $verticalPosition_l)
+	
 	

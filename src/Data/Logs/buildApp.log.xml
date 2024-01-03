@@ -7,7 +7,7 @@
     <Target>Component</Target>
     <CodeDesc>NO_ERR</CodeDesc>
     <CodeId>0</CodeId>
-    <Message>コンパイル開始 [2023-12-31T22:14:40]</Message>
+    <Message>コンパイル開始 [2024-01-03T17:12:58]</Message>
   </Log>
 
   <Log>
@@ -15,7 +15,7 @@
     <Target>Common</Target>
     <CodeDesc>NO_ERR</CodeDesc>
     <CodeId>0</CodeId>
-    <Message>ファイルコピー開始 : Macintosh HD:Users:koichi:Development:4D Component:Widget_Build:Components:Widget.4dbase:Widget.4DZ</Message>
+    <Message>ファイルコピー開始 : Macintosh HD:Users:koichi:Development:4D Component:Widget:build:Components:Widget.4dbase:Widget.4DZ</Message>
   </Log>
 
   <Log>
@@ -23,7 +23,7 @@
     <Target>Common</Target>
     <CodeDesc>NO_ERR</CodeDesc>
     <CodeId>0</CodeId>
-    <Message>ファイルコピー終了 : Macintosh HD:Users:koichi:Development:4D Component:Widget_Build:Components:Widget.4dbase:Widget.4DZ</Message>
+    <Message>ファイルコピー終了 : Macintosh HD:Users:koichi:Development:4D Component:Widget:build:Components:Widget.4dbase:Widget.4DZ</Message>
   </Log>
 
   <Log>
@@ -31,7 +31,7 @@
     <Target>Component</Target>
     <CodeDesc>NO_ERR</CodeDesc>
     <CodeId>0</CodeId>
-    <Message>コード署名ツール起動中: ''/Applications/4D/4D v20 R2/4D.app/Contents/Resources/SignApp.sh' '-' '/Users/koichi/Development/4D Component/Widget_Build/Components/Widget.4dbase' '/Applications/4D/4D v20 R2/4D.app/Contents/Resources/4D.entitlements' '/Users/koichi/Development/4D Component/Widget/Data/Logs/logSign.txt''</Message>
+    <Message>コード署名ツール起動中: ''/Applications/4D/4D v20 R2/4D.app/Contents/Resources/SignApp.sh' '-' '/Users/koichi/Development/4D Component/Widget/build/Components/Widget.4dbase' '/Applications/4D/4D v20 R2/4D.app/Contents/Resources/4D.entitlements' '/Users/koichi/Development/4D Component/Widget/src/Data/Logs/logSign.txt''</Message>
   </Log>
 
   <Log>
@@ -47,7 +47,7 @@
     <Target>Component</Target>
     <CodeDesc>NO_ERR</CodeDesc>
     <CodeId>0</CodeId>
-    <Message>署名されたファイル: /Users/koichi/Development/4D Component/Widget_Build/Components/Widget.4dbase/Libraries/lib4d-arm64.dylib: signed Mach-O thin (arm64) [lib4d-arm64-55554944ab8028970c2f3eae8d68413e30f7ca37]</Message>
+    <Message>署名されたファイル: /Users/koichi/Development/4D Component/Widget/build/Components/Widget.4dbase/Libraries/lib4d-arm64.dylib: signed Mach-O thin (arm64) [lib4d-arm64-55554944b508a7b89bec349b8c89c9b5ec4a6913]</Message>
   </Log>
 
   <Log>
@@ -55,7 +55,7 @@
     <Target>Component</Target>
     <CodeDesc>NO_ERR</CodeDesc>
     <CodeId>0</CodeId>
-    <Message>コンパイル終了 [2023-12-31T22:14:40]</Message>
+    <Message>コンパイル終了 [2024-01-03T17:12:58]</Message>
   </Log>
 
 </BuildApplicationLog>

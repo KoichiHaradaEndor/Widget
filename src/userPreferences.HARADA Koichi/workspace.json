@@ -1,13 +1,7 @@
 {
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483646,
-			"codeDescriptor": {
-				"type": 11,
-				"className": "Progress",
-				"methodPath": "/SOURCES/Classes/Progress.4dm"
-			}
+			"type": "explorer"
 		}
 	]
 }

@@ -1,14 +1,20 @@
 {
 	"Sources/Classes/Progress.4dm": {
-		"left": 7,
-		"top": 122,
-		"width": 1363,
-		"height": 1697
+		"left": 188,
+		"top": 146,
+		"width": 998,
+		"height": 915
 	},
 	"Sources/Methods/test_progress.4dm": {
-		"left": 430,
-		"top": 670,
-		"width": 1537,
-		"height": 1082
+		"left": 1093,
+		"top": 254,
+		"width": 1765,
+		"height": 1245
+	},
+	"Trash/Methods/(test_progress1).4dm": {
+		"left": 1177,
+		"top": 660,
+		"width": 965,
+		"height": 691
 	}
 }
